@@ -12,7 +12,7 @@ import org.slf4j.LoggerFactory;
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {
 
-    private static final Logger log = LoggerFactory.getLogger(DemoApplication.class);
+    private static final Logger log = LoggerFactory.getLogger(Application.class);
    
     public static void main(String[] args) {
         log.info("Inside main method1");
