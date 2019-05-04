@@ -21,11 +21,11 @@
         </encoder>
     </appender>
 
-    <logger name="hello" level="debug" additivity="false">
+    <logger name="hello" level="INFO" additivity="false">
         <appender-ref ref="FILE-ROLLING"/>
     </logger>
 
-    <root level="debug">
+    <root level="INFO">
         <appender-ref ref="FILE-ROLLING"/>
     </root>
 
